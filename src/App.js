@@ -8,7 +8,8 @@ import InputComp from './modules/inputComp/inputComp';
 import Parent from './modules/parentAndChild/parent';
 import ClickEvent from './modules/clickEvent/clickEvent';
 import AjaxMethod from './modules/ajaxMethod/ajaxMethod';
-import ToNextPage from './modules/toNextPage/toNextPage'
+import ToNextPage from './modules/toNextPage/toNextPage';
+import WithRouterRedirect from  './modules/withRouter/withRouter';
 
 const navLinks = [
     {path: '/', desc: 'Section', component: Section},
@@ -19,6 +20,7 @@ const navLinks = [
     {path: '/ajaxMethod', desc: 'ajax请求', component: AjaxMethod},
     {path: '/parentAndChild', desc: '父子组件通信', component: Parent},
     {path: '/toNextPage', desc: '跳转其它页面Redirect', component: ToNextPage},
+    {path: '/withRouter', desc: '跳转其它页面withRouter', component: WithRouterRedirect},
 ];
 
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Redirect } from 'react-router-dom';
+import { Redirect , Link} from 'react-router-dom';
 
 export default class ToNextPage extends Component {
     state = {
@@ -13,7 +13,7 @@ export default class ToNextPage extends Component {
     }
 
     render() {
-        console.log(this.state.redirect,22222)
+        console.log(this.state.redirect,22222);
         if (this.state.redirect) {
             //使用场景1-简单路由 to是字符串
             // return <Redirect push to="/Detail" />;
@@ -27,12 +27,12 @@ export default class ToNextPage extends Component {
                 search: '?utm=helloWorld',
                 data: 'xxx'
             }}/>
-
         }
 
         return (
                 <div className="Detail">
-                    <button onClick={this.handleOnClick} type="button">点我--跳转Detail页面</button>
+                    <button onClick={this.handleOnClick} type="button">点我--redirect跳转方式，跳转Detail页面</button>
+                    <div><Link to="/LifeCircle">Link跳转方式</Link></div>
                 </div>
         );
     }
