@@ -5,13 +5,14 @@ import Section from './modules/section/section';
 import Detail from './modules/detail/detail';
 import LifeCircle from './modules/lifeCircle/lifeCircle';
 import InputComp from './modules/inputComp/inputComp';
-
+import Parent from './modules/parentAndChild/parent';
 
 const navLinks = [
     {path: '/', desc: 'Section', component: Section},
     {path: '/Detail', desc: 'Detail', component: Detail},
-    {path: '/LifeCircle', desc: 'LifeCircle', component: LifeCircle},
-    {path: '/InputComp', desc: 'InputComp', component: InputComp}
+    {path: '/LifeCircle', desc: '组件生命周期', component: LifeCircle},
+    {path: '/InputComp', desc: 'input输入框', component: InputComp},
+    {path: '/parentAndChild', desc: '父子组件通信', component: Parent}
 ]
 
 
