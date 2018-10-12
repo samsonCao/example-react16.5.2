@@ -8,16 +8,17 @@ import InputComp from './modules/inputComp/inputComp';
 import Parent from './modules/parentAndChild/parent';
 import ClickEvent from './modules/clickEvent/clickEvent';
 import AjaxMethod from './modules/ajaxMethod/ajaxMethod';
+import ToNextPage from './modules/toNextPage/toNextPage'
 
 const navLinks = [
     {path: '/', desc: 'Section', component: Section},
     {path: '/Detail', desc: 'Detail', component: Detail},
     {path: '/LifeCircle', desc: '组件生命周期', component: LifeCircle},
     {path: '/InputComp', desc: 'input输入框', component: InputComp},
-    {path: '/parentAndChild', desc: '父子组件通信', component: Parent},
     {path: '/clickEvent', desc: '点击事件', component: ClickEvent},
-    {path: '/ajaxMethod', desc: 'ajax请求', component: AjaxMethod}
-
+    {path: '/ajaxMethod', desc: 'ajax请求', component: AjaxMethod},
+    {path: '/parentAndChild', desc: '父子组件通信', component: Parent},
+    {path: '/toNextPage', desc: '跳转其它页面Redirect', component: ToNextPage},
 ];
 
 
