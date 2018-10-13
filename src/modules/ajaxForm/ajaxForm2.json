@@ -1,0 +1,57 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "total": 336,
+    "hasNext": true,
+    "lastOrder": 0,
+    "result": [
+      {
+        "id": 139,
+        "customerNo": "CM20160926",
+        "name": "张三",
+        "type": 1,
+        "typeTitle": "企业",
+        "brand": "【张三会员专享】",
+        "shopName": "苏州市全明星滑冰体育文化有限公司",
+        "storeCount": 232,
+        "paymentCount": 123456789078,
+        "contractCount": 0,
+        "itemCount": 0,
+        "status": 2,
+        "quaStatus": 0,
+        "quaStatusTitle": null,
+        "userId": null,
+        "contractType": 1,
+        "contactName": null,
+        "mobile": null,
+        "contractStatus": 0,
+        "needFill": false,
+        "auditStatus": 3
+      },
+      {
+        "id": 2581,
+        "customerNo": "CM2018091",
+        "name": "蛋糕有限公司",
+        "type": 2,
+        "typeTitle": "个人",
+        "brand": "111",
+        "shopName": null,
+        "storeCount": 2,
+        "paymentCount": 0,
+        "contractCount": 0,
+        "itemCount": 0,
+        "status": 2,
+        "quaStatus": 0,
+        "quaStatusTitle": null,
+        "userId": null,
+        "contractType": 1,
+        "contactName": null,
+        "mobile": null,
+        "contractStatus": 0,
+        "needFill": false,
+        "auditStatus": 3
+      }
+    ]
+  }
+}

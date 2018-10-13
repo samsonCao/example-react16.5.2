@@ -7,17 +7,18 @@ export default class AjaxMethod extends Component {
     }
 
     componentDidMount() {
-        // ajax({
-        //     method: 'POST',
-        //     url: 'xxx',
-        //     data: {
-        //         cityId: '',
-        //         key: ''
-        //     },
-        //     success: function (response) {
-        //         console.log(response)
-        //     }
-        // });
+        ajax({
+            data: {
+                cityId: '',
+            },
+            success(data) {
+                console.log(11111)
+            },
+            error() {
+                console.log(11111)
+
+            }
+        });
 
         this.setState({
             mapData: '请求成功了'
@@ -25,17 +26,7 @@ export default class AjaxMethod extends Component {
     }
 
     handelAjax = () => {
-        // ajax({
-            //     method: 'POST',
-            //     url: 'xxx',
-            //     data: {
-            //         cityId: '',
-            //         key: ''
-            //     },
-            //     success: function (response) {
-            //         console.log(response)
-            //     }
-            // });
+
         this.setState({
             mapData: '再次请求成功了'
         })
