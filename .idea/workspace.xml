@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6aa4ff66-a050-4762-ac8f-37f7d14a848d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/withRouter/withRouter.js" afterPath="$PROJECT_DIR$/src/modules/withRouter/withRouter.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +20,7 @@
       <file leaf-file-name="ajaxForm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/modules/ajaxForm/ajaxForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="228">
               <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -31,8 +32,8 @@
       <file leaf-file-name="withRouter.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/modules/withRouter/withRouter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="285">
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -43,7 +44,7 @@
       <file leaf-file-name="toNextPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/modules/toNextPage/toNextPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="285">
               <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="31" />
               <folding />
             </state>
@@ -83,7 +84,7 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
+            <state relative-caret-position="266">
               <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -146,7 +147,6 @@
         <option value="$PROJECT_DIR$/src/modules/clickEvent/clickEvent.js" />
         <option value="$PROJECT_DIR$/src/modules/detail/detail.js" />
         <option value="$PROJECT_DIR$/src/modules/toNextPage/toNextPage.js" />
-        <option value="$PROJECT_DIR$/src/modules/withRouter/withRouter.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/modules/utils/util.js" />
         <option value="$PROJECT_DIR$/src/modules/ajaxMethod/ajaxMethod.js" />
@@ -156,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/modules/ajaxForm/ajaxForm.less" />
         <option value="$PROJECT_DIR$/src/modules/ajaxForm/ajaxForm2.json" />
         <option value="$PROJECT_DIR$/src/modules/ajaxForm/ajaxForm.js" />
+        <option value="$PROJECT_DIR$/src/modules/withRouter/withRouter.js" />
       </list>
     </option>
   </component>
@@ -179,7 +180,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="53" />
     <option name="y" value="23" />
     <option name="width" value="1387" />
@@ -231,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -293,6 +293,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,14 +345,16 @@
       <workItem from="1539421388479" duration="21000" />
       <workItem from="1540974755049" duration="202000" />
       <workItem from="1541136141225" duration="50000" />
+      <workItem from="1542109382073" duration="24000" />
+      <workItem from="1542110293968" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18623000" />
+    <option name="totallyTimeSpent" value="18658000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="23" width="1387" height="877" extended-state="6" />
+    <frame x="53" y="23" width="1387" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -692,7 +695,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="266">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -736,7 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/ajaxForm/ajaxForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="228">
           <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -754,7 +757,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/toNextPage/toNextPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="285">
           <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
@@ -762,8 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/withRouter/withRouter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="285">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

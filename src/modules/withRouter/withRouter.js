@@ -12,6 +12,8 @@ class WithRouterRedirect extends Component {
         //注意--即使不引用withRouter 并且不把组件WithRouterRedirect和withRouter绑定
         // this.props.history.push("/ajaxMethod");也是可以直接执行的
         this.props.history.push("/ajaxMethod");
+
+        //测试git flow
     }
 
     render() {
