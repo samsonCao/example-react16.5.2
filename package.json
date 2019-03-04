@@ -68,11 +68,6 @@
     "shell": "./shell.sh",
     "commit":"git-cz"
   },
-  "config":{
-    "commitizen":{
-      "path":"node_modules/cz-conventional-changelog"
-    }
-  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -127,5 +122,10 @@
     "commitizen": "^3.0.7",
     "cz-conventional-changelog": "^2.1.0",
     "less": "^3.8.1"
+  },
+  "config":{
+    "commitizen":{
+      "path":"node_modules/cz-conventional-changelog"
+    }
   }
 }
