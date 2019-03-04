@@ -66,7 +66,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "shell": "./shell.sh",
-    "commit":"git-cz"
+    "commit": "git-cz"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -119,13 +119,20 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-angular": "^7.5.0",
     "commitizen": "^3.0.7",
     "cz-conventional-changelog": "^2.1.0",
     "less": "^3.8.1"
   },
-  "config":{
-    "commitizen":{
-      "path":"node_modules/cz-conventional-changelog"
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
