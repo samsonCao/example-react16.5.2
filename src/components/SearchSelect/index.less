@@ -1,0 +1,50 @@
+.nj-asyncSearch {
+    position: relative;
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        margin: 0;
+        padding: 0 10px;
+        list-style: none;
+    }
+
+    &__container {
+        position: absolute;
+        top: 0;
+        z-index: 10000;
+        width: 100%;
+        max-height: 250px;
+        background: #fff;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.15);
+        box-shadow: 0 2px 8px rgba(0,0,0,.15);
+    }
+    &__container.scroll {
+        overflow-y: scroll;
+    }
+
+    &__container-list{
+        border: 1px solid #f9f9f9;
+        cursor: pointer;
+    }
+    &__container-item {
+        height: 32px;
+        padding: 2px 10px;
+        &:hover {
+            background: #e6f7ff;
+        }
+    }
+
+    &__container__none{
+        border: 1px solid #f9f9f9;
+        cursor: not-allowed;
+        &-tips {
+            height: 32px;
+            padding: 2px 10px;
+            color: rgba(0,0,0,.25);
+        }
+    }
+}
